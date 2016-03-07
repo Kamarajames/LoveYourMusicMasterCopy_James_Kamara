@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Registration Form for 'Love your music'</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="Look at the changing taste in music with age" content="Music journey of the ages"/> 
+<meta name="Music, Age, Magical, journey, love" content="The Magical Music Age"/>
+<script>
+// you will have to replace the home page link below if this function is being used on your own laptop so that it will open in a new window
+		function myFunctionReturn(){
+			 window.open("file:///C:/Users/James_Kamara/Desktop/New%20Music%20Website/index.html#login","", "width=440, height=616");
+		}
+// from here I will use code to check the URL of a website or email link
+</script>
+<!-- CSS File -->
+<link rel="stylesheet" href="css/style1.css"/>
+<!-- JS File  -->
+<!--<script type="text/javascript" src="js/formVal1.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/v1.11.3/jquery.min.js"></script>-->
+<script src="js/formVal2.js"></script> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+</head>
+<body>
+<div class="container">
+<div class="main">
+<form id="form1"  class="query-form" action="formRegistration.php" name="queryForm" onsubmit="return(formValidate());" novalidate>
+<h2>New User Registration Form for 'Love your music'</h2>
+<label>Username :</label>
+<input type="text" name="username" id="name">
+<label>Email :</label>
+<input type="text" name="email" id="email">
+<label>Password :</label>
+<input type="password" name="password" id="password">
+<label>Confirm Password :</label>
+<input type="password" name="cpassword" id="cpassword">
+<input type="submit" name="register" id="register" value="Register"  onclick="myFunctionReturn();"/>
+</form>
+</div>
+</body>
+</html>

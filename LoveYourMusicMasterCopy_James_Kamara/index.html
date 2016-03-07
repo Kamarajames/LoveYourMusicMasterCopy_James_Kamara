@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Love your music</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="Look at the changing taste in music with age" content="Music journey of the ages"/> 
+		<meta name="Music, Age, Magical, journey, love" content="The Magical Music Age"/> 
+		<!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
+		<script src="js/jquery.min.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/skel-layers.min.js"></script>
+		<script src="js/init.js"></script>
+		<noscript>
+			<link rel="stylesheet" href="css/skel.css" />
+			<link rel="stylesheet" href="css/style.css" />
+			<link rel="stylesheet" href="css/style-xlarge.css" />
+		</noscript>
+		
+		<script src="js/formValidation.js"></script>
+		 
+		<SCRIPT language="JavaScript"> 
+          <!--hide 
+         // function openwindow() 
+         //{ 
+         // window.open('xyz.htm','jav','width=400,height=300,resizable=yes'); 
+         //} 
+         //window.open(URL,name,specs,replace)--> 
+		 	function myFunction() {
+		 
+            var myWindow = window.open("", "", "width=440, height=616");//This is 'URL','windowname'. I am 440px wide and 616px tall!
+			myWindow.document.write("<p><img src='images/James_Kamara_Image.jpg' width='400' /> </p>");
+			myWindow.document.write("<p><strong>Hi my name is James and WELCOME, I am the author of the site 'Love your music'. Your journey into the world of musical tastes and how it develops with time begins below. This site is all about how music changes with age. Its an interesting subject which I hope will get you thinking, so take this opportunity to enlighten youself and please give me any feedback on your thoughts about your own musical interests now and then via the contact form provided at the end of this page</strong></p>");
+			};
+		// Listen to radio station music online	
+            function myFunctionRadio() {
+		    window.open("http://www.rbmaradio.com","", "width=440, height=616");
+			}
+		// call registion page into new window
+			function myFunctionRegistration(){
+			var newWin = window.open("Registration.html","_blank","menubar=0,resizable=1,width=500,height=616");
+			
+			}
+			// getElementById calls the id within an html element and tests it with an if condition
+			function myFunctionValidate(){
+				if(document.getElementById("username").value=="" ){
+				alert("Username empty please enter your username");
+				location.href="index.html#username";
+				return true;}
+				
+				// checks for username format numbers and letters between 3 to 20 max in number
+	           var uname = /^[A-Za-z0-9_]{3,20}$/;
+	           if (!uname.test( document.queryForm.username.value)){
+	           alert("Username must use alphabet characters, numbers and underscores only between 3 to 20 characters max!");
+	           document.queryForm.username.focus();
+	           return false;
+	           }
+				
+				// test for empty password field
+				if(document.getElementById("password").value=="" ){
+				alert("Password is empty please enter your password");
+				location.href="index.html#password";
+				return true;
+				}
+				// checks for password format and length min 6 max 20
+	            var pword = /^[A-Za-z0-9!@#$%^&*()_]{6,20}$/;
+	            // alert("Password invalid must use correct format and a minimum 6 to max of 20 characters!");
+	           if (!pword.test( document.queryForm.password.value)){
+		
+		       alert("Password invalid must use correct format and a minimum 6 to max of 20 characters!");
+		       document.queryForm.password.focus();
+			   location.href="index.html#password";
+		       return false;
+		
+	            }
+				
+				else{
+				
+				alert("Login was successful please fill out the remainder of the form starting with your name");
+				location.href="index.html#firstname";
+				}
+			}
+			
+        </SCRIPT>
+		    <script src="js/formValidation.js"></script>
+			<!--<script src="js/formVal.js"></script>-->		
+			<!--<script src="js/formVal1.js"></script>-->
+		   
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+			
+	</head>
+	<body class="landing">
+
+		<!-- Header -->
+			<header id="header">
+				<h1><a href="javascript:myFunctionRadio()">Listen to Music on RBMA Radio</a></h1>
+				<nav id="nav">
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="page1.html">50's to 60's Music</a></li>
+						<li><a href="page2.html">70's to 80's Music</a></li>
+						<li><a href="page3.html">90's and beyond 2000's Music</a></li>
+					
+						<li><a href="index.html#login" class="button special">Log In</a></li>
+					</ul>
+				</nav>
+			</header>
+
+		<!-- Banner -->
+			<section id="banner">
+				<h2>Hi. This is 'Love your music'.</h2>
+				<p>Click the button below to start your journey.</p>
+				<ul class="actions">
+					<li>
+						<a href="javascript:myFunction()"   class="button big">Let the Journey Begin</a>
+					</li>
+					
+				</ul>
+			</section>
+			                       
+
+		<!-- One -->
+			<section id="one" class="wrapper style1 special">
+				<div class="container">
+					<header class="major">
+						<h2>'The Magical Music Age'</h2>
+						<p>I read three articles about the changing taste of music and how this develops as you age,
+                           each article is placed on a different page 2, 3 and 4 respectively and hopely you will enjoy reading them as much as I did. It certainly
+                           gave me a whole new perspective on music and how we develop with it as we age. The whole aim of this site is for anyone  
+                           to take there own journey into their musical taste and develop their own understanding of their  musical interest. You can read the 
+                           articles as and when you want too and if you feel like sending me some feedback please fill out a feed back form via the review button 
+                           at the top of this page giving your own comments on what you enjoy musically. A link for a facebook oldies music fan is also provided if 
+                           you so wish to enjoy music with other like minded people. These are the three articles below:</p>
+					</header>
+					<div class="row 150%">
+						<div class="4u 12u$(medium)">
+							<section class="box">
+								<i class=" icon big rounded color2 fa fa-thumbs-o-up  fa-5x"></i>
+								<h3>View First Article</h3><a href="page1.html"><strong>50's to 60's Music</strong></a>
+								<p>The musical ages of modern man: how our taste in music changes over a lifetime.
+								   Read the 50's to 60's Music page</p>
+							</section>
+						</div>
+						<div class="4u 12u$(medium)">
+							<section class="box">
+								<i class="icon big rounded color9 fa fa-hand-o-right fa-5x"></i>
+								<h3>View Second Article</h3><a href="page2.html"><strong>70's to 80's Music</strong></a>
+								<p>Musical tastes offer a window into how you think.
+								   Read the 70's to 80's Music page a very interesting 
+								   article </p>
+							</section>
+						</div>
+						<div class="4u$ 12u$(medium)">
+							<section class="box">
+								<i class="icon big rounded color6 fa fa-list-ol fa-5x"></i>
+								<h3>View Third Article</h3><a href="page3.html"><strong>90's and beyond 2000's Music</strong></a>
+								<p>Rock of Ages: Taste in music DOES change over a lifetime.
+								   Read the 90's and beyond 2000's Music page</p>
+							</section>
+						</div>
+					</div>
+				</div>
+			</section>
+
+		<!-- Two -->
+			<section id="two" class="wrapper style2 special">
+				<div class="container">
+					<header class="major">
+						<h2>The magic of music as you age</h2>
+						<p>Below is a short topic summary of what each page talks about in relation to music as we age, and
+						 as a subject that has been researched over a period of many years before drawing some final conclusions on the topic.
+						 I provide a brief intro as to why I have an interest in this particular subject and a short video from someone who talks 
+						 about the subject from their point of view, so please take your time to read this interesting topic and hopely you will
+                         discover your own journey.Feel free to give me any feedback on the matter, you can send me a message with your own musical
+						 interests and you can even join the music fan club provided by the Facebook link at the bottom of the page should you wish to enjoy
+						 your music as a hobby</p>
+					</header>
+					<section class="profiles">
+						<div class="row">
+							<section class="3u 6u(medium) 12u$(xsmall) profile">
+								<img src="images/Vinyl_Record.png" alt="Vinyl Record image" />
+								<h4>Introduction- The Preview</h4>
+								<p> The whole idea of this site is for anyone  
+                                    to take their own journey into their musical 
+									taste and develop their own understanding of 
+									their  musical interest. You can read the 
+                                    articles as and when you want too. The intro commences below.</p>
+							</section>
+							<section class="3u 6u$(medium) 12u$(xsmall) profile">
+								<img src="images/Guitar.png" alt="Guitar image" />
+								<a href="page1.html"><h4>50s and 60s Music- Preview</h4></a>
+								<p>This was the music when I was growing 
+                                   up that I listen too as my parents had
+                                   a lot of 50s and 60s music, just
+	                               click on the image, just click on the link above</p>
+							</section>
+							<section class="3u 6u(medium) 12u$(xsmall) profile">
+								<img src="images/Cassette_Tape.png" alt="Cassette tape image" />
+								<a href="page2.html"><h4>70s and 80s Music- Preview</h4></a>
+								<p>This was definitely my rebellious teenage years, football, music and learning, where I was discovering myself,
+								   just click on the link above</p>
+							</section>
+							<section class="3u$ 6u$(medium) 12u$(xsmall) profile">
+								<img src="images/Head_Phone.png" alt="Headphone Image" />
+								<a href="page3.html"><h4>90s and beyond 2000s Music- Preview</h4></a>
+								<p>This was the maturing stage, which is still constantly evolving where my musical taste
+                                   has widen to include a broad range of music from all cultures, just click on the link above</p>
+							</section>
+						</div>
+					</section>
+					<footer>
+						<p><strong>The Preview</strong></p>
+						<p>Included in the following pages are various musical
+                           periods going from the 50s to the 60s, 70s to the 80s and finally from the 90s to 00s. The reason I selected these years was 
+                           because of my own experience of growing up with this music and the influence it had on me from an early age, through what my
+                           parents played to me too etc, to my teenage rebellious years and friends, to my coming of age 
+                           at University and to my working adult life, so its just my own personal selection. If there is music that 
+                           you have particular interest in from any other culture, then please just fill out the contact feedback form below and explain why,
+                           it would be nice to hear your views.</p> 
+                        <p>The 'Contact Form' below gives you the opportunity to say what music year or years
+                           you felt influenced you the most as you grew up and what your personal choice is now.
+                           There are various videos to enjoy in own time, if you enjoyed them and would like to know more
+                           about the history of music over certain years feel free to check the links at the bottom of 
+                           each page. You can check the Facebook Music fan club or the People's History of Music for the 
+                           various musical time periods, certainly I enjoyed it and I hope you too will enjoy reading 
+                           the articles and get to understand your own musical age experience.</p>
+                           <p>There is a video in this home page, just below, that you may enjoy or certainly find it entertaining as it 
+                           looks at someone elses take on the musical age of taste from a fun point of view. I have a Contact and email address below,
+						   so feel free to contact me either way</p>
+						
+						<!--I need my image to go here about music through the ages-->
+						
+						<div >
+                                  <p><br>James Kamara
+                                  <br>Waterford Institute of Technology,
+                                  <br>Cork Road
+                                  <br>Waterford
+                                  <br>Tel. 051 302000</p>
+                        </div>
+
+                        <div>
+                        <iframe style= "border:0;" height="150"  width="200"  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9771.392081510738!2d-7.1402493!3d52.2461441!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4042f0dcf13f7cfe!2sWaterford+Institute+of+Technology!5e0!3m2!1sen!2sie!4v1449256497819" 
+                        allowfullscreen></iframe>
+                        </div>
+
+                        <p>At the bottom left of this page, just in case you wanted too know bit about me and where I am currently studying I have profile link 
+                           you can just click on, so thanks again and please enjoy your own  personal experience which I am sure you will find interesting. </p>
+
+                        <div>
+                        <iframe  style= "border:0;" height="315"  width="560" src="https://www.youtube.com/embed/MsQ7f46fGPk" 
+                        allowfullscreen></iframe>
+                        </div>
+
+						
+						<!-- My old code ends here-->
+						   
+						
+						<ul class="actions">
+							<li>
+								<a href="#" class="button big">Back to the top</a>
+							</li>
+						</ul>
+					</footer>
+				</div>
+			</section>
+
+		<!-- Three -->
+			<section id="three" class="wrapper style3 special">
+				<div class="container">
+					<header class="major">
+						<h2>Contact Me</h2>
+						<p id="login">Please log in first and then fill out the form completely</p>
+					</header>
+				</div>
+				<div class="container 50%">
+					 <form id="form1"   class="query-form" action="formSubmitted.php" name="queryForm" onsubmit="return(formValidate());" novalidate>
+						<div class="row uniform">
+							
+							<div class="6u 12u$(small)">
+								<input name="username" id="username" value="" placeholder="Username" type="text">
+							</div>
+							<div class="6u 12u$(small)">
+								<input name="password" id="password" value="" placeholder="Password" type="text">
+							</div>
+							<div class="6u 12u$(small)">
+								<input name="Registration" id="Registration"  value="Join In" type="submit" >
+								<!--<label for="submit"><strong>New User</strong></label>--><br>
+							    <a href="javascript:myFunctionRegistration()" onclick="document.getElementById('form1').submit();"><strong>Click Here for Registration</strong></a>
+                   
+							</div>
+							<div class="6u 12u$(small)">
+								<a href="javascript:myFunctionValidate()"><input name="login" id="submit"  value="Member"  type="button" /></a>
+								<label for="submit"><strong>Click Button to Sign In</strong></label>
+								<!--<a href="javascript:myFunctionRadio()" onclick="document.getElementById('message').formValidate();"><strong>Click Here to Sign In</strong></a>-->
+								<!--<input type="submit" value="Example" /></a>-->
+							</div>
+							<div class="6u 12u$(small)">
+								<input name="firstname" id="firstname" value="" placeholder="Firstname" type="text">
+							</div>
+							<div class="6u 12u$(small)">
+								<input name="lastname" id="lastname" value="" placeholder="Lastname" type="text">
+							</div>
+							<div class="6u$ 12u$(small)">
+								<input name="email" id="email" value="" placeholder="Email" type="email">
+							</div>
+							<div class="4u 12u$(3)">
+										<input type="checkbox" id="priority-low" name="priority" value="checked">
+										<label for="priority-low"><strong>Like 50s 60s Music</strong></label>
+									</div>
+									<div class="4u 12u$(3)">
+										<input type="checkbox" id="priority-normal" name="priority" value="checked">
+										<label for="priority-normal"><strong>Like 70s 80s Music</strong></label>
+									</div>
+									<div class="4u$ 12u$(3)">
+										<input type="checkbox" id="priority-high" name="priority" value="checked">
+										<label for="priority-high"><strong>Like 90s 2000s and beyond</strong></label>
+									</div>
+									<!---we also need the age grour range like other form-->
+									<div class="12u$">
+										<div class="select-wrapper">
+											<select name="Gender" id="Gender">
+												<option value="select">- Gender -</option>
+												<option value="1">Male</option>
+												<option value="2">Female</option>
+												
+											</select>
+											<br>
+										</div>
+									
+									<div class="6u 12u$(3)">
+										<input  type="checkbox" id="copy" name="copy" checked>
+										<label for="copy"><strong>Tick box-Email me a copy of the message</strong></label>
+									</div>
+									<br>
+									<div class="6u$ 12u$(3)">
+										<input  type="checkbox" id="human" name="human" value="checked">
+										<label for="human"><strong>Tick box to confirm I am not a robot</strong></label>
+									</div>
+									<div class="12u$">
+										<div class="select-wrapper">
+											<select name="Age Group" id="Age Group">
+												<option value="Select Age Group">- Age Group -</option>
+												<option value="1">18 to 30</option>
+												<option value="1">31 to 40</option>
+												<option value="1">41 to 55</option>
+												<option value="1">56+</option>
+											</select>
+										</div>
+										<br>
+							<div class="12u$">
+								<textarea name="message" id="message"  placeholder="Message" rows="6"></textarea>
+							</div>
+							<br>
+							<div class="12u$">
+								<ul class="actions">
+									<li><input type="submit" value="Send Message" class="special" /></li>
+											<li><input type="reset" value="Reset" /></li>
+								</ul>
+							</div>
+						</div>
+					</form>
+				</div>
+			</section>
+
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="container">
+					<section class="links">
+						<div class="row">
+							<section class="3u 6u(medium) 12u$(small)">
+								<h3>Contact the Author</h3>
+								<ul class="unstyled">
+									<li><a href="mailto:j_kamara2000@yahoo.co.uk">Email me</a></li>
+									<li><a href="https://ie.linkedin.com/in/james-kamara-3658b145">My Profile</a></li>
+									
+								</ul>
+							</section>
+							<section class="3u 6u$(medium) 12u$(small)">
+								<h3>Music history of the 50's and 60's</h3>
+								<ul class="unstyled">
+									<li><a href="http://www.thepeoplehistory.com/50smusic.html">Music History of the 50's</a></li>
+									<li><a href="http://www.thepeoplehistory.com/60smusic.html">Music History of the 60's</a></li>
+									
+								</ul>
+							</section>
+							<section class="3u 6u(medium) 12u$(small)">
+								<h3>Music history of the 70's and 80's</h3>
+								<ul class="unstyled">
+									<li><a href="http://www.thepeoplehistory.com/70smusic.html">Music History of the 70's</a></li>
+									<li><a href="http://www.thepeoplehistory.com/80smusic.html">Music History of the 80's</a></li>
+									
+								</ul>
+							</section>
+							<section class="3u$ 6u$(medium) 12u$(small)">
+								<h3>Music history of the 90's and 2000's and beyond</h3>
+								<ul class="unstyled">
+									<li><a href="http://www.thepeoplehistory.com/90smusic.html">Music History of the 90's</a></li>
+									<li><a href="http://www.thepeoplehistory.com/nowmusic.html">Music History of the 2000's</a></li>
+									
+								</ul>
+							</section>
+						</div>
+					</section>
+					<div class="row">
+						<div class="8u 12u$(medium)">
+							<ul class="copyright">
+								<li>&copy; All rights reserved to James Kamara.</li>
+								<li><a href="#">Back to Top of Page</a></li>
+								
+							</ul>
+						</div>
+						<div class="4u$ 12u$(medium)">
+							<ul class="icons">
+								<li>
+									<a href="https://www.facebook.com/-OLDIES-MUSIC-FAN-CLUB--310471592154/" class="icon rounded fa-facebook" ><span class="label">Facebook</span></a>
+								</li>
+								   
+								<li>
+									<a href="https://ie.linkedin.com/in/james-kamara-3658b145" class="icon rounded fa-linkedin"><span class="label">LinkedIn</span></a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</footer>
+			
+	</body>
+</html>
